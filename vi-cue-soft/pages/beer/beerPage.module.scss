@@ -1,0 +1,70 @@
+$blue: #2b4bf2;
+
+.back__button {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  color: $blue;
+}
+
+.back__button:hover {
+  cursor: pointer;
+}
+
+.beer__page__wrapper {
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 80%;
+  display: flex;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.beer__page__wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  .description__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+  .name__text {
+    font-size: 60px;
+  }
+  .tagline__text {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .abv__text {
+    margin-top: 10px;
+    font-size: 40px;
+  }
+  .food__pairing {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 25px;
+  }
+  .food__pairing__text {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .description__text {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+}
+
+.keg__image {
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 250px;
+  height: 500px;
+}
+.bottle__image {
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 580px;
+  width: 150px;
+}

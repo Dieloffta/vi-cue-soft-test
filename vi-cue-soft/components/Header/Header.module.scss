@@ -1,0 +1,38 @@
+$blue: #2b4bf2;
+
+.header__wrapper {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(66, 68, 72, 0.2);
+
+  .input {
+    padding: 10px;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-right: 20px;
+    outline: none;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 45px;
+    background-color: $blue;
+    color: white;
+    border-width: 0;
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: 0.3s;
+  }
+  .button:hover {
+    opacity: 1;
+    transition: 0.3s;
+  }
+}

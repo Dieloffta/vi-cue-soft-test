@@ -1,0 +1,159 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  margin-right: 8px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #d5d5d5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pageContent {
+  font-family: Roboto;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-feature-settings: "salt" on, "ss01" on, "ss02" on, "ss03" on;
+  color: #212b36;
+}
+
+.activePage {
+  margin-right: 8px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #4200ff;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.activePagecCntent {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #4200ff;
+}
+
+.previus {
+  margin-right: 8px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #dfe3e8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  a {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.next {
+  margin-right: 8px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #dfe3e8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  a {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.disabledPreviousNext {
+  background: #d5d5d5;
+  opacity: 0.5;
+  border-radius: 4px;
+  margin-right: 8px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  border: 1px solid #d5d5d5;
+  box-sizing: border-box;
+  color: #ffffff;
+  a {
+    color: #ffffff;
+  }
+}
+
+.disabledPreviousNextContent {
+  color: white;
+} // не работает?!?!
+
+.break {
+  margin-right: 8px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #d5d5d5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: default !important;
+}
+
+.breakContent {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-feature-settings: "salt" on, "ss01" on, "ss02" on, "ss03" on;
+  color: #212b36;
+  pointer-events: none;
+  cursor: default !important;
+}
